@@ -33,6 +33,8 @@ If you really need Steam OS, having it on another SSD and swapping it back may s
 It also implements a Steam Deck-style virtual keyboard, which allows you to type using two touchpads. 
 Each button has 3 actions: click, press, and double-click, while each action can be bound to any key combination or even macro.
 
+A customized configuration for Jackal can be found [here](Jackal.sccprofile). You can simply import it to SC-Controller.
+
 ### Control Jackal
 
 #### Connect to Jackal
