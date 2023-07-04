@@ -54,3 +54,5 @@ Jackal uses the package `jackal_control` by default, which mainly launches 3 oth
 If a computer can connect to the ROS core on Jackal, it can control Jackal by either having `joy_node` running locally and publishing messages to `/joy`, 
 or having both `joy_node` and `teleop_twist_joy` running locally and publishing messages to `/cmd_vel`. Since the configuration of each controller may be different, 
 the latter option is recommended.
+
+A modified version of `teleop_twist_joy` for Steam Deck can be found [here](/sd_ws/teleop_twist_joy_adjust). It achieves smooth motion and avoids too high response rate on Steam Deck.
