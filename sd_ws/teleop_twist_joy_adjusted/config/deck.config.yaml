@@ -1,0 +1,16 @@
+axis_linear: 4
+scale_linear: 0.7
+scale_linear_turbo: 1.4
+step_linear: 0.05  # maximum difference between consecutive commands.
+
+
+axis_angular: 3
+scale_angular: 0.78        # PI/4
+scale_angular_turbo: 1.57  # PI/2
+step_angular: 0.04  # maximum difference between consecutive commands.
+
+enable_button: 4  
+enable_turbo_button: 5  
+
+# steamdeck's joystick input frequency ranges from 20 to 200+
+cmd_freq_limit: 20  
