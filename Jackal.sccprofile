@@ -1,0 +1,91 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.BTN_GAMEPAD)"
+        }, 
+        "B": {
+            "action": "button(Keys.BTN_EAST)"
+        }, 
+        "BACK": {
+            "action": "feedback(BOTH, 20469.0, hold(button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_V), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_V), 0.5))"
+        }, 
+        "C": {
+            "action": "feedback(BOTH, 20469.0, hold(button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_C), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_C)))"
+        }, 
+        "DOTS": {
+            "action": "feedback(BOTH, 21246.0, hold(menu('Profiles.menu'), button(Keys.KEY_ENTER), 1.0))"
+        }, 
+        "LB": {
+            "action": "button(Keys.BTN_TL)"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_B)", 
+            "name": "tmux_ctrl"
+        }, 
+        "LGRIP2": {
+            "action": "button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_B); sleep(0.200); button(Keys.KEY_P)", 
+            "name": "tmux_prev_window"
+        }, 
+        "LPAD": {
+            "action": "button(Keys.KEY_Q)"
+        }, 
+        "RB": {
+            "action": "button(Keys.BTN_TR)"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_B); sleep(0.200); button(Keys.KEY_O)", 
+            "name": "tmux_next_panel"
+        }, 
+        "RGRIP2": {
+            "action": "button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_B); sleep(0.200); button(Keys.KEY_N)", 
+            "name": "tmux_next_window"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_LEFT)"
+        }, 
+        "RSTICKPRESS": {
+            "action": "button(Keys.BTN_THUMBR)"
+        }, 
+        "START": {
+            "action": "feedback(BOTH, 2475.0, button(Keys.KEY_BACKSPACE))"
+        }, 
+        "STICKPRESS": {
+            "action": "keyboard()"
+        }, 
+        "X": {
+            "action": "button(Keys.BTN_NORTH)"
+        }, 
+        "Y": {
+            "action": "button(Keys.BTN_WEST)"
+        }
+    }, 
+    "cpad": {}, 
+    "dpad": {
+        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))"
+    }, 
+    "gyro": {
+        "action": "cemuhook()"
+    }, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "sens(-1.0, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))))"
+    }, 
+    "pad_right": {
+        "action": "feedback(RIGHT, 256, mouse())"
+    }, 
+    "rstick": {
+        "action": "XY(axis(Axes.ABS_RX), raxis(Axes.ABS_RY))"
+    }, 
+    "stick": {
+        "action": "sens(1.2, 1.2, XY(axis(Axes.ABS_X), raxis(Axes.ABS_Y)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "version": 1.4
+}
