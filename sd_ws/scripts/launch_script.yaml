@@ -1,0 +1,22 @@
+session_name: steamdeck_controller
+suppress_history: true
+windows:
+- window_name: teleop_steamdeck
+  layout: tiled
+  shell_command_before:
+    - cd ~/cw_joy/
+    - export ROS_MASTER_URI=http://cpr-ucri06-01:11311
+    - export ROS_IP=192.168.131.181
+    - source devel/setup.bash
+  panes:
+    - roslaunch teleop_twist_joy_adjusted teleop_deck.launch
+
+
+- window_name: debug_info
+  layout: tiled
+  shell_command_before:
+    - cd ~/cw_joy/
+  panes:
+    - ping 192.168.131.1
+    - while true; do iwconfig wlo1 | grep -i --color signal; sleep 0.2; done
+
