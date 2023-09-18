@@ -28,6 +28,9 @@ It is possible to install Steam OS first then other OS, but the unstoppable upgr
 Thus, it's not recommended to have Steam OS installed while you are using this device as a computer. 
 If you really need Steam OS, having it on another SSD and swapping it back may save you some time.
 
+#### Boot Into Specific OS
+Hold the `volume -` button and power button until you hear the beep sound, then release both buttons. The system will boot into a OS select window.
+
 ### Configure Buttons, Touchpads, and Joysticks
 [SC-Controller](https://github.com/kozec/sc-controller) is an open-source tool that allows you to configure all keys on Steam Deck with a friendly GUI.
 It also implements a Steam Deck-style virtual keyboard, which allows you to type using two touchpads. 
